@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Buy Ports",
+    "slug": "final",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-finalPNG.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo-finalPNG.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["ACCESS_NETWORK_STATE"],
+
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-finalPNG.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo-finalPNG.png"
+    }
+  }
+}
